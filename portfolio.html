@@ -1,0 +1,798 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urvashi Vishwakarma-Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="ajax/libs/remixicon/3.6.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/swap.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/media_query.css">
+</head>
+
+<body>
+    <div class="site_content">
+        <!-- ====================================== Preloader ===================================== -->
+        <div class="wrapper">
+            <div id="loader-wrapper">
+                <div id="loader">
+                    <svg viewbox="0 0 1320 300">
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">Urvashi</text>
+                    </svg>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- ====================================== Preloader End ===================================== -->
+        <!-- ====================================== Cursor ===================================== -->
+        <div class="cursor"></div>
+        <!-- ====================================== Cursor End ===================================== -->
+        <div class="row home-content-row">
+            <!-- ====================================== Section Fix Image ===================================== -->
+            <div class="col-xxl-5 col-lg-5 col-md-5  col-12  olivia-left-fixed-image p-0 position-relative">
+                <div class="olivia-home-image" data-aos="fade-right">
+                    <div class="bubbles">
+                        <img class="uv" src="assets/images/my11.png">
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                    </div>
+                    <!-- ============================ Dark Light Mode ======================= -->
+                    <div class="ul-header" id="ul-header1">
+                        <div class="mode" onclick="myFunction()" title="Toggle Mode">
+                            <div class="icon-container">
+                                <i id="sunIcon" class="fa-solid fa-sun fa-spin icon"></i>
+                                <i id="moonIcon" class="fa-solid fa-moon icon hidden"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =========================== Dark Light End ========================== -->
+                    <div class="social-menu">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/UrvashiVishwakarma2003" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/urvashi-vishwakarma-961a56268/" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- ====================================== Section Fix Image End ===================================== -->
+            <!-- ====================================== Section Contain Menu ===================================== -->
+            <div class="col-12 col-md-12 col-lg-7 col-xxl-7 olivia-home-content dark-home-content p-0">
+                <header>
+                    <div class="navbar navbar-light">
+                        <div class="logo navbar-brand">
+                            <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                            <div class="ul-header ul-header2">
+                                <div class="mode" onclick="myFunction()" title="Toggle Mode">
+                                    <div class="icon-container">
+                                        <i id="sunIcon2" class="fa-solid fa-sun fa-spin"></i>
+                                        <i id="moonIcon2" class="fa-solid fa-moon icon hidden"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bnt-navbar">
+                            <a class="menu-touch menu" data-toggle="collapse" href="#multiCollapseExample1"
+                                role="button" aria-expanded="false">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="drop-menu">
+                            <nav class="menu-content">
+                                <a href="index.html"><img class="logo-menu-img" src="assets/images/logo.png"
+                                        alt="logo"></a>
+                                <ul class="navbar-side" id="navbarSide">
+                                    <li class="btn-clique">
+                                        <img class="menu_icons" src="assets/images/home_icon.svg" alt="home_icon">
+                                        <a class="item-menu" href="index.html">Home</a>
+                                    </li>
+                                    <li class="btn-clique">
+                                        <img class="menu_icons" src="assets/images/about_icon.svg" alt="about_icon">
+                                        <a class="item-menu" href="about.html">About Me</a>
+                                    </li>
+                                    <li class="btn-clique">
+                                        <img class="menu_icons" src="assets/images/resume_icon.svg" alt="resume_icon">
+                                        <a class="item-menu" href="resume.html">Resume</a>
+                                    </li>
+                                    <li class="bnt-pj btn-clique">
+                                        <img class="menu_icons" src="assets/images/skills_icon.svg" alt="skills_icon">
+                                        <a class="item-menu" href="skills.html">Skills</a>
+                                    </li>
+                                    <li class="btn-clique portfolio_page">
+                                        <img class="menu_icons" src="assets/images/portfolio_icon.svg"
+                                            alt="portfolio_icon">
+                                        <a class="item-menu" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="btn-clique">
+                                        <img class="menu_icons" src="assets/images/contact_icon.svg" alt="contact_icon">
+                                        <a class="item-menu" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+
+
+                <div class="contan_main2">
+                    <section class="oliva-intro tabcontent">
+                        <div class="intro_main">
+                            <h2 class="intro" data-aos="fade-up">portfolio</h2>
+                        </div>
+                        <h2 class="moswa" data-aos="fade-up">Projects Showcase</h2>
+                        <h3 class="passionate" data-aos="fade-up">"Every great website begins with a single line of
+                            code. Let’s build something amazing together!"
+                        </h3>
+
+                        <div class="content_main overflow-hidden pop-up ">
+                            <div data-aos="fade-right">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupana">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/analog.png" alt="zelt">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Analog Clock </h3>
+                                        <p class="content-text">Responsive Real-Time Clock</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Analog Clock</h4>
+                                <p class="project_name_sub">Responsive Real-Time Clock</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupdig">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/digital.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Digital Clock</h3>
+                                        <p class="content-text">Real-time digital clock</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Digital Clock</h4>
+                                <p class="project_name_sub">Real-time digital clock</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupcal">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/calculator.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Calculator</h3>
+                                        <p class="content-text">Basic Calculator</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Calculator</h4>
+                                <p class="project_name_sub">Basic Calculator</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupdro">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/menu.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Dropdown Menu</h3>
+                                        <p class="content-text">Responsive Navigation </p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Dropdown Menu</h4>
+                                <p class="project_name_sub">Responsive Navigation </p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupimg">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/image.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Image Gallery</h3>
+                                        <p class="content-text">Responive Image Gallery</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Image Gallery</h4>
+                                <p class="project_name_sub">Responive Image Gallery</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupvid">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/video.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Video Gallery</h3>
+                                        <p class="content-text">Responive Video Gallery</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Video Gallery</h4>
+                                <p class="project_name_sub">Responive Video Gallery</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupmem">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/memory.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Memory Game</h3>
+                                        <p class="content-text">Card-matching</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Memory Game</h4>
+                                <p class="project_name_sub">Card-matching</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popuptic">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/tic.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Tic Tac Toe</h3>
+                                        <p class="content-text">Two Player Game</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Tic Tac Toe</h4>
+                                <p class="project_name_sub">Two Player Game</p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <div class="content_portfolio js-open-popup" data-target="custom-popupgrid">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/grid.png" alt="food_app">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Responive Grid Layout</h3>
+                                        <p class="content-text">Flexible Layout</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name">Responive Grid Layout</h4>
+                                <p class="project_name_sub">Flexible Layout</p>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <!-- ====================================== Section Contain Menu End ===================================== -->
+                <!-- ====================================== Footer Section ===================================== -->
+                <footer class="olivia-footer-wrap">
+                    <p class="olivia-copyright-content">© 2025 All rights reserved by
+                        <a href="https://themeforest.net/user/the_krishna/portfolio" class="b-text"
+                            target="_blank">Urvashi Vishwakarma.</a>
+                    </p>
+                </footer>
+                <!-- ====================================== Footer Section End ===================================== -->
+            </div>
+        </div>
+        <!-- ======================================  Portfolio Pop Up ===================================== -->
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupana">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/analog.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Analog Clock</h3>
+                        <p class="project_name_sub">Responsive Real-Time Clock</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Analog Clock</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    Designed and developed a fully responsive Analog Clock using core web technologies. The clock
+                    dynamically reflects the current time with smooth movement of hour, minute, and second hands,
+                    closely mimicking a real-world analog clock.
+                    Built with HTML for structure, CSS for sleek circular design and animations, and JavaScript for
+                    real-time time calculation and hand rotation.<br><br>
+                    Ensured full responsiveness across all screen sizes, including desktops, tablets, and mobile
+                    devices.
+                    Implemented smooth and accurate rotation for clock hands using JavaScript’s Date object and CSS
+                    transform.
+                    Practiced clean code principles and organized file structure for easy maintainability.
+                    Great addition to UI-focused projects, demonstrating skills in time-based interactivity and
+                    responsive layout design.
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project" onclick="window.open('Projects/Analog_clock/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupdig">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/digital.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Digital Clock</h3>
+                        <p class="project_name_sub"> Real-Time digital Clock</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Digital Clock</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A fully responsive and elegant Digital Clock designed using HTML, CSS, and JavaScript. This clock
+                    displays the current time in real-time and updates every second. The interface is clean, colorful,
+                    and visually appealing, making it suitable for any modern web UI.<br>
+                    * Real-time time display using JavaScript’s Date object<br>
+                    * Fully responsive design that works on all devices<br>
+                    * Stylish and colorful layout with smooth digital styling<br>
+                    * Clean code structure with focus on UI/UX design<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project"
+                        onclick="window.open('Projects/Digital_clock/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupcal">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/calculator.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Calculator</h3>
+                        <p class="project_name_sub">Basic Calculator</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Calculator</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A simple and responsive Calculator built using HTML, CSS, and JavaScript. It performs basic
+                    arithmetic operations such as addition, subtraction, multiplication, and division with a
+                    user-friendly interface. The design is clean and modern, making it suitable for all screen
+                    sizes.<br>
+                    * Handles real-time input and displays results instantly<br>
+                    * Responsive layout with smooth button interactions<br>
+                    * Built with clean and organized code structure<br>
+                    * Great for showcasing core JavaScript logic and UI skills<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project" onclick="window.open('Projects/Calculator/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupdro">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/menu.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Dropdown Menu</h3>
+                        <p class="project_name_sub">Responsive Navigation</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Dropdown Menu</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">A fully responsive and interactive Dropdown Menu designed using HTML, CSS, and
+                    JavaScript. The menu enhances website navigation by allowing users to access multiple links in a
+                    compact and organized way. It works smoothly across all devices and screen sizes.<br>
+                    * Clean and modern navigation design<br>
+                    * Responsive dropdown with hover or click interaction<br>
+                    * Works seamlessly on both desktop and mobile screens<br>
+                    * Structured layout for easy integration into web projects<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project" onclick="window.open('Projects/DropDownMenu/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupimg">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/image.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Image Gallery</h3>
+                        <p class="project_name_sub">Responsive Image Gallery</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Image Gallery</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML and CSS</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A fully responsive Image Gallery created using HTML, CSS, and JavaScript. It displays images in a
+                    neat grid layout with a colorful and elegant design. The gallery adjusts smoothly across all screen
+                    sizes, making it perfect for modern websites and portfolios.<br>
+                    * Responsive grid layout for all devices<br>
+                    * Clean and visually appealing design<br>
+                    * Smooth hover effects for interactive experience<br>
+                    * Organized and easy-to-customize code structure<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project"
+                        onclick="window.open('Projects/Image_gallery/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupvid">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/video.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Video Gallery</h3>
+                        <p class="project_name_sub">Responsive Video Gallery</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Video Gallery</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A fully responsive and elegant Video Gallery built using HTML, CSS, and JavaScript. This gallery
+                    showcases multiple videos in a clean grid layout with a user-friendly interface. It adapts smoothly
+                    to different screen sizes, ensuring a consistent viewing experience across all devices.<br>
+                    * Responsive video grid layout<br>
+                    * Clean and modern UI with embedded video players<br>
+                    * Works perfectly on desktop, tablet, and mobile<br>
+                    * Well-structured and easy-to-customize codebase<br>
+
+
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project"
+                        onclick="window.open('Projects/Video_gallery/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupmem">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/image.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Memory Game</h3>
+                        <p class="project_name_sub">Card-matching</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Memory Game</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    An interactive Memory Game built using HTML, CSS, and JavaScript, where players flip cards to find
+                    matching pairs. The game tests memory skills with smooth animations and a clean, responsive design
+                    that works well on all screen sizes.<br>
+                    * Flip-to-match logic using JavaScript<br>
+                    * Smooth transitions and visual feedback<br>
+                    * Responsive layout for desktop and mobile<br>
+                    * Ideal for practicing DOM manipulation and game logic<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project" onclick="window.open('Projects/Memory_game/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popuptic">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/tic.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Tic Tac Toe</h3>
+                        <p class="project_name_sub">Two Player Game</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Two Player Game</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML, CSS and JavaScript</p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A classic Tic Tac Toe game developed using HTML, CSS, and JavaScript. This two-player game features
+                    a clean and responsive grid layout with real-time win-check logic and a reset option. It provides a
+                    smooth and interactive experience across all devices.<br>
+                    * Two-player turn-based gameplay<br>
+                    * Instant win/draw detection using JavaScript<br>
+                    * Responsive design with clean UI<br>
+                    * Reset functionality for repeated play<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project" onclick="window.open('Projects/Tic_Tac_Toe/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popupgrid">
+            <div class="custom-popup__holder js-custom-popup-holder">
+                <div class="position-relative">
+                    <div class="custom-popup__close js-close-popup">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+                <img class="portfolio_big_img" src="assets/images/grid.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp">Responive Grid Layout</h3>
+                        <p class="project_name_sub">Flexible Layout</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Created By:</p>
+                        <p class="cuberto">Urvashi Vishwakarma</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Client:</p>
+                        <p class="cuberto">For Myself</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Preview:</p>
+                        <p class="cuberto">Responive Grid Layout</p>
+                    </div>
+                    <div class="cuberto_main">
+                        <p class="created_by">Languages:</p>
+                        <p class="cuberto">HTML and CSS </p>
+                    </div>
+
+                </div>
+                <p class="blandit_text">
+                    A clean and flexible Responsive Grid Layout designed using HTML and CSS. This layout automatically
+                    adjusts the number of columns based on screen size, making it ideal for displaying content like
+                    cards, images, or sections in a structured and mobile-friendly way.<br>
+                    * Built using CSS Grid and media queries<br>
+                    * Fully responsive for all screen sizes<br>
+                    * Ideal for galleries, product listings, or content blocks<br>
+                    * Clean design with easy-to-maintain code structure<br>
+                </p>
+                <div class="pop_up_footer">
+                    <button class="download_cv view_project"
+                        onclick="window.open('Projects/Responsive_Grid_Layout/index.html');">
+                        <i class="ri-eye-line"></i> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- ======================================  Portfolio Pop Up ===================================== -->
+    <!-- ======================================= Portfolio gallery ================================== -->
+    <div id="popup1" class="overlay_gallery">
+        <div class="popup_gallery">
+            <h2 class="city_gallery">City 3D View Gallery</h2>
+            <a class="close" href="#">&times;</a>
+            <div id="cbwrap">
+                <div class="gallery">
+                    <img src="assets/images/gallery_img1.png" alt="gallery_img1">
+                    <img src="assets/images/gallery_img2.png" alt="gallery_img2">
+                    <img src="assets/images/gallery_img3.png" alt="gallery_img3">
+                    <img src="assets/images/gallery_img4.png" alt="gallery_img4">
+                    <img src="assets/images/gallery_img5.png" alt="gallery_img5">
+                    <img src="assets/images/gallery_img1.png" alt="gallery_img1">
+                    <img src="assets/images/gallery_img4.png" alt="gallery_img4">
+                    <img src="assets/images/gallery_img2.png" alt="gallery_img2">
+                    <img src="assets/images/gallery_img5.png" alt="gallery_img5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/javascript/aos.js"></script>
+    <script src="assets/javascript/magnific_popup/magnific-popup.min.js"></script>
+    <script src="assets/javascript/magnific_popup/magnific-script.js.js"></script>
+    <script src="assets/javascript/cursor.js"></script>
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/slick.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+            container: '.scroll-container',
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+    </script>
+
+</body>
+
+</html>
