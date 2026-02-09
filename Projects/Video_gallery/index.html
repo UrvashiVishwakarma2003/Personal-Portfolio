@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font cdn library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+
+    <div class="container">
+        <div class="side-bar">
+            <ul class="list">
+                <li class="active" data-src="videos/burger.mp4">Burger</li>
+                <li data-src="videos/coffee.mp4">Coffee</li>
+                <li data-src="videos/mountain.mp4">Mountain</li>
+                <li data-src="videos/river.mp4">River</li>
+                <li data-src="videos/shinchan.mp4">Shinchan</li>
+                <li data-src="videos/tommy.mp4">Tom and Jerry</li>
+                <li data-src="videos/water.mp4">Water</li>
+            </ul>
+        </div>
+
+        <div class="video-container">
+            <video src="videos/burger.mp4" loop muted autoplay controls></video>
+        </div>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
